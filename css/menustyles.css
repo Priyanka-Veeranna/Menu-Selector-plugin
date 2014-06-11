@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2014, 5:56:25 PM
+    Author     : Priyanka Veeranna
+*/
+
+
+/*styles for the menu form at the backend */
+.clear { clear:both; float:none;}
+h1#beands-heading { text-align: center;}
+
+div#beands-week { display:block; margin:40px auto; text-align:center; clear:both; }
+
+.beands_wrap { width:40%; background-color:white;  margin-bottom:30px; overflow:auto;}
+.beands_wrap.sub { background:none; margin-top:15%;}
+.beands_wrap:nth-child(odd) { float:right; margin-right:3%;}
+.beands_wrap:nth-child(even) { float:left; margin-right:3%;}
+			
+.beands_wrap h3{ margin:0 0 20px 0; padding-top:2%; width:100%; height:30px; background-color:#333; color:white; text-align:center;}
+.beands_wrap input.menu-sub { display:block; margin:20px auto;}
+.beands_wrap label { margin:0 0 0 15%; }
+.beands_wrap select { width:60%; margin-left:15%; margin-bottom:10px;}
+
+form.beands-show-thumbs { width:90%; margin:0 auto; margin-bottom:30px;}
+
+
+/*-----styles for the menu table display---*/
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('jenna/JennaSue-webfont.eot');
+    src: url('jenna/JennaSue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('jenna/JennaSue-webfont.woff') format('woff'),
+         url('jenna/JennaSue-webfont.ttf') format('truetype'),
+         url('jenna/JennaSue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto/Roboto-Regular-webfont.eot');
+    src: url('roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#beands-menu-container { width:100%; min-width:450px; margin:0 auto; background-color:white; padding: 3%;}
+				
+#beands-menu-container header{width:100%; text-align:center;}
+#beands-menu-container header #titles { width:55%; float:left; margin-right:1%;}
+#beands-menu-container header #titles h1 {font-family:'robotoregular', sans-serif; color:#000; background-color:#f3d01c; padding:2%; margin:0; font-size:1.5em; font-weight:200; text-align:center;}
+#beands-menu-container header #titles h3 { font-family:'robotregular',sans-serif; margin:5px auto 0px; font-size:12px;}
+#beands-menu-container header #titles p { font-size:13px; margin:0;}
+				
+#beands-menu-container header #logo { display:inline-block; width:40%; height:100%; }
+#beands-menu-container #logo img { max-width:100%;}
+				
+#beands-menu-container table { /*table-layout:fixed;*/  width:100%; display:block; margin:10px auto 0px; border:1px solid red; clear:both; }
+#beands-menu-container table, th, td, tr { border-collapse:collapse;}
+#beands-menu-container thead { margin-bottom: 20px; border-bottom:3px solid #fff;}
+#beands-menu-container th { font-family:'robotoregular', sans-serif; font-weight: 100; text-transform:uppercase; border-right:1px solid #fff; padding:1% 0; background-color:#418bca; color:white;}
+#beands-menu-container thead th:first-child, thead th:nth-child(2) { background:none; }
+#beands-menu-container tr { margin-bottom:25px; }
+#beands-menu-container td { width:5%; font-family:'jenna_sueregular', sans-serif; font-size:1em; color:#000 !important; text-align:center; padding:1% 0;  background-color:#dadada; border-right:1px solid #fff; border-bottom:8px solid #fff;}
+#beands-menu-container td a:hover, #beands-menu-container td a:visited{ text-decoration:none; }	
+
+#beands-menu-container td.day { font-family:'robotoregular', sans-serif; color:#fff; width:2%; border-right:3px solid #fff; border-bottom:8px solid #fff; background-color:#f3d01c; color:white;} 
+#beands-menu-container td.day img { width:100%; height: 100%; }				
